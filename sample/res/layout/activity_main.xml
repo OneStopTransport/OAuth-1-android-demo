@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/label_logged_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_medium"
+        android:text="@string/label_logged_user"
+        android:textSize="20sp"
+        tools:context=".MainActivity" />
+
+    <TextView
+        android:id="@+id/logged_user"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/label_logged_user"
+        android:padding="@dimen/padding_medium"
+        android:text="@string/none"
+        tools:context=".MainActivity" />
+
+    <Button
+        android:id="@+id/button_response"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/logged_user"
+        android:onClick="onResponseButtonClicked"
+        android:padding="@dimen/padding_medium"
+        android:text="@string/button_users" />
+
+</RelativeLayout>
