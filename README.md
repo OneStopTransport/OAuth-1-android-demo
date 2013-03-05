@@ -1,6 +1,6 @@
 #ost.pt mobile example
 
-Nesta repositório é possível encontrar um projecto Android que serve de biblioteca exemplo para a interacção com os módulos OAuth, para autênticação e autorização dos utilizadores na plataforma.
+Neste repositório é possível encontrar um projecto Android que serve de biblioteca exemplo para a interacção com os módulos OAuth, para autênticação e autorização dos utilizadores na plataforma.
 
 É fornecido também um projecto demonstrativo de como é possível utilizar a biblioteca.
 
